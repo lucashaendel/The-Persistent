@@ -1,0 +1,29 @@
+.home {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 60vh;
+  margin-top: 10vh;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.home > img {
+  width: 20em;
+  border-radius: 15px;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login > input {
+  margin: 10vh auto;
+}
